@@ -1,0 +1,64 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies and package manager state
+node_modules/
+.pnp
+.pnp.js
+.yarn/cache/
+.yarn/install-state.gz
+.npm/
+.pnpm-store/
+
+# Next.js and frontend build outputs
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Java and JVM build outputs
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+
+# Logs and runtime files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+
+# IDE and editor settings
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and tool caches
+.nyc_output/
+.cache/
+.turbo/
+.eslintcache
+.pytest_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
